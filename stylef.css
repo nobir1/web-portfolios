@@ -1,11 +1,12 @@
 body {
+    margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
 h1 {
     font-size: 50px;
 }
 .name-color{
-    color: #ff284f;
+    color: #ff245c;
 }
 .half-width{
         width: 40%;
@@ -15,4 +16,20 @@ h1 {
     }
     .half-width img{
         width: 100%;
+    }
+    .top-banner{
+       background-color: #ff245c;
+        background-repeat: no-repeat;
+    }
+    section{
+        height: 500px;
+    }
+    .link-button{
+        text-decoration: none;
+       background-image: linear-gradient(#45c881, #ff245c);
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: white;
+        font-weight: 800;
+
     }
